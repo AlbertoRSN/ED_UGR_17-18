@@ -1,0 +1,69 @@
+ED - 10/11/2017	
+
+Estructuras de datos
+
+Jerarquia: Arboles
+
+nodos -> {raiz, intermedio, hoja}
+
+Arbol -> Grafo aciclico donde cada nodo tiene grado de entrada 1 (excepto el nodo raiz, que no le llega ninguna linea por arriba) y grado de salida 0  o mayor que 0
+
+Arbola n-ario -> todos los nodos tienen 0 o n hijos.
+
+Arbol 2-ario -> todos los nodos tienen 0 o 2 hijos (o bien 0 o bien 2)
+Arbol binario -> Todos los nodos pueden tener de 0 a 2 hijos
+
+Camino en un arbol
+
+	Una sucesion de nodos n1, n2, ... nk donde el nodo i+h es padre del nodo i+1.
+	La longitud del camino es igual al nº de nodos en el camino -1.
+
+	/home-rosa-alumnos f1 -> la longitud de este es 4
+
+Ancestro
+
+	n sub i (ni) es un ancestro de n sub j (nj) si existe un camino de ni a nj
+
+	ni se coloca antes en el camino que nj
+
+	En el caso de arriba (/home...) /home es un ancestro de f1
+
+	nj es un descendente de ni 
+
+SubArbol -> Sea ni y todos los descendientes de ni.
+
+Altura de una nodo ni.
+	Se define como el camino mas largo entre el nodo ni y una hoja. 
+	Altura del arbol se corresponde con la altura del nodo raiz.
+
+Profundidade de nodo ni
+	La longitud del camino que existe entre el nodo ni y la raiz
+
+Nivel
+	Si el arbol tiene altura h. El arbol tiene h+1 nivel que va desde el 0 hasta el h. El nivel 0 se compone de la razi, nivel 1 son los descendientes de la raiz.
+
+Grado de un nodo.
+	
+	En un arbol, el grado de un nodo se refiere al nº de hijos que tiene.
+
+Grado de un arbol
+	Se refiere al maximo de los grados de los nodos del arbol.
+
+___
+Arbol binario es el que mas vamos a usar.
+
+	Arbol binario es homogeneo si es 2-ario.
+
+	Arbol binario completo -> tiene todos los niveles completos excepto el ultimo nivel en cuyo caso los huecos quedan a la derecha.
+
+		Si tenemos h niveles es 2^h-1
+
+Recorrido para Arboles
+	
+	En profundidad -> {preorde, inorder, postorden}
+
+	En anchura -> {Por niveles} 
+
+
+
+

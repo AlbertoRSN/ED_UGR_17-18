@@ -1,0 +1,52 @@
+ED - 15/12/2017
+
+T.HASH
+
+unordered_set y unordered_multiset -> #include unordered_set
+unordered_map y unordered_multimap -> #include unordered_map
+
+unordered_Set <int> miunor.set;
+unordered_multiset <int> miunor.set;
+
+Ejemplo:
+
+	#include <iostream>
+	#include <string>
+	#include <array>
+	#include <unordered_set>
+
+	using namespace std;
+
+	int main(){
+		unordered_set<string> myset = {"yellow", "green", "blue"};
+		string mystring = "red";
+		myset.insert(mystring);
+		myset.insert(mystring"dash");
+		array <string,2> myarray = {"black", "white"};
+		myset.insert(myarray.begin(), myarray.end());
+		myset.insert({"purple", "orange"});
+
+		unordered_set<string>::iterator it;
+
+		for(it=myset.begin(); it!=myset.end(); ++it){
+			cout<<*it<<' ' ;
+		}
+
+		myset.clear();
+
+		cout<<myset.size(); //devolvera 0
+
+		myset.rehash(12); //Reserva para mi tabla hash 13 cubetas
+		myset.insert({"USA", "FRANCE", "UK", "JAPA", "GERMANY", "ITALY"});
+		myset.erase(myset.begin());
+		myset.erase("FRANCE");
+		myset.erase(myset.find("JAPAN"), myset.end());
+
+		cout<< myset.bucket_count(); //n cubetas.
+		cout<< myset.load_factor(); //factor de carg
+		cout<< myset.max_load_factor();
+		stringset::haser fn = myset.hash_function();
+
+		cout<< fn("purple");
+		cout<< fn("orange");
+	}

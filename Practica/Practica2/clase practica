@@ -1,0 +1,27 @@
+Archivo Doxyfile
+
+TAG = VALUE
+
+PROJECT_NAME
+FILE_PATTERNS
+INPUT
+OUTPUT_DIRECTORY
+
+
+La documentacion la vamos a generar en html, por tanto la etiqueta GENERATE_HTML tiene que tener el valor YES.
+
+HTML_OUTPUT -> Directorio donde se va a guardar la documentacion html (normalmente un directorio llamado html, que se va a crear donde tengamos indicado en OUTPUT_DIRECTORY)
+
+doxygen ./doc/doxys/Doxyfile
+
+actualizar fichero a la version actual -> doxygen -u ./doc/doxys/Doxyfile
+Una vezx hecho, volver a generar el doxyfile con -> doxygen ./doc/doxys/Doxyfile
+
+En la practica utilizar este ultimo fichero generado (version 1.8.11)
+
+Para que doxygen genere documentsacion los comentarios dentro del .h tienen que empezar con /** y se cierra con */
+
+La forma de comentar dentro del codigo:
+	/**
+		int n; /**< Comentario */
+	*/

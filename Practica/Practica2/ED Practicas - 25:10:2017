@@ -1,0 +1,13 @@
+ED Practicas - 25/10/2017
+
+
+main.cpp
+tda.h
+tda.cpp
+
+
+Para compilar el programa y crear el ejecutable -> crear el .o del principal (main.cpp) y del tda.cpp y luego se enlazan
+
+Si el tda es una clase plantilla (template) no se puede compilar porque no sabe que tipo de dato es.
+
+La solucion es que al final del fichero de cabecera se incluya el fichero donde esta la implementación (final del tda.h)

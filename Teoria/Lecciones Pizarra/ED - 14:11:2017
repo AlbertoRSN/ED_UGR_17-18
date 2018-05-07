@@ -1,0 +1,64 @@
+ED - 14/11/2017
+
+Arboles Binarios (AB)
+
+	1) Son arboles tal que cada nodo puede tener 0, 1 o 2 hijos
+	2)El arbol vacío es un AB
+
+Representacion:
+
+template <class T>
+
+//struct se diferencia de un class en que si no dices nada, todo es publico.
+
+struct info_nodo{
+	T et; //Etiqueta
+	info_nodo *padre, *hizq, *hder;
+
+	info_nodo(){padre = hizq = hder = 0;}
+	info_nodo(const T&e){
+		et = e;
+		padre = hizq = hder = 0;
+	}
+}
+
+template <class T>
+T &etiqueta(infonodo<T> *n){
+	return n->et;
+}
+
+template <class T>
+info_nodo<T> * GetPadre(info_nodo<T> *n){
+	return n->padre;
+}
+
+template <class T>
+info_nodo<T> *GetHi(info_nodo<T> *n){
+	return n->hizq;
+}
+
+template <class T>
+info_nodo<T> * GetHid(info_nodo<T> *n){
+	return n->hder;
+}
+
+template<class T>
+void BorrarInfo(info_nodo<T> *n){
+	if(n!=0){ //Solamente puedo borrar si el puntero n es distinto de 0
+		BorrarInfo(n->hizq);
+		BorrarInfo(n->hder);
+		delete n;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+

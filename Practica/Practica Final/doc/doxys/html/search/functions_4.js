@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['get_5fvalor_5fdefecto',['get_Valor_Defecto',['../class_matriz___dispersa.html#a2e69de1fe16ef98dae3b99eef02e114e',1,'Matriz_Dispersa']]],
+  ['getacertadas',['getAcertadas',['../class_sopa___letras.html#ab152f75e86e192fda87cc29640b5b6b6',1,'Sopa_Letras']]],
+  ['getcolumnas',['getColumnas',['../class_matriz___dispersa.html#a2a23a6b34615d70279b83c99daf38ac0',1,'Matriz_Dispersa::getColumnas()'],['../class_sopa___letras.html#ace295f31fd9e826c311589fd381471e6',1,'Sopa_Letras::getColumnas()']]],
+  ['getdefinicion',['GetDefinicion',['../class_ontologias.html#ab4511afeb3ee46b095a70b0a02987839',1,'Ontologias']]],
+  ['getelemento',['getElemento',['../class_matriz___dispersa.html#a3317cc1e47591f70a043543af7c1db7c',1,'Matriz_Dispersa']]],
+  ['getfilas',['getFilas',['../class_matriz___dispersa.html#acbca2def7842f8fc1ca699fbf6a8e0fe',1,'Matriz_Dispersa']]],
+  ['getjerarquia',['GetJerarquia',['../class_ontologias_1_1iterator.html#a54c886b108d4b72b7db050611c3d7534',1,'Ontologias::iterator']]],
+  ['getmatriz',['getMatriz',['../class_matriz___dispersa.html#a66efbdfbe44ec1c533a29cf1a13c3627',1,'Matriz_Dispersa']]],
+  ['getmayor_5fcolumna',['getMayor_Columna',['../class_matriz___dispersa.html#a4d47f252a692cf861e17be6c03d1a980',1,'Matriz_Dispersa::getMayor_Columna()'],['../class_sopa___letras.html#af75b620517509bd650c1edbdb3f6a674',1,'Sopa_Letras::getMayor_Columna()']]],
+  ['getmayor_5ffila',['getMayor_Fila',['../class_matriz___dispersa.html#a9c73c4acad02a14fdec489cd22d4c997',1,'Matriz_Dispersa']]],
+  ['getmenor_5fcolumna',['getMenor_Columna',['../class_matriz___dispersa.html#a6d9d59564951f012a7bca3b0daade78c',1,'Matriz_Dispersa']]],
+  ['getmenor_5ffila',['getMenor_Fila',['../class_matriz___dispersa.html#a0fcb58008109601be1be2ae7d1786614',1,'Matriz_Dispersa']]],
+  ['getpendientes',['getPendientes',['../class_sopa___letras.html#afe886d6b2818a3fc2ce7dfd2bf2d42a7',1,'Sopa_Letras']]],
+  ['getpregunta',['GetPregunta',['../class_preguntas_e_d.html#aa637cae2c39ed2c66dc2408a0e8437c1',1,'PreguntasED']]],
+  ['getsinonimos',['GetSinonimos',['../class_ontologias.html#a817c746e977591df7c46b2a5fb513631',1,'Ontologias']]],
+  ['getsuperpalabra',['GetSuperPalabra',['../class_ontologias_1_1iterator.html#a315f89c4f7a35d331474d1699cd7a955',1,'Ontologias::iterator']]],
+  ['gettitletematica',['GetTitleTematica',['../class_preguntas_e_d.html#a55d9974f8160d7b6aac5349dbdf2bae4',1,'PreguntasED']]],
+  ['gettitulo',['getTitulo',['../class_sopa___letras.html#adc885f6f0fec30826416b131348328b5',1,'Sopa_Letras']]]
+];
